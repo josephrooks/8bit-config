@@ -1,20 +1,24 @@
 # 8bit-config
-This repository contains most of the configuration files for the 8bit Minecraft server. I try to avoid changing vanilla gameplay where possible, but some cases (like villager AI or huge quanities of mobs in a small space) are too detrimental to performance to leave them as-is. Below, I'm working on summarizing most of the settings players will need to know about, especially the ones that significantly affect vanilla behavior. Right now it's broken up into two main sections:
+This repository contains most of the configuration files for the 8bit Minecraft server.
+
+I try to avoid changing vanilla gameplay where possible, but some cases (like villager AI or huge quanities of mobs in a small space) are too detrimental to performance to leave them as-is.
+
+Below, I'm working on summarizing most of the settings players will need to know about, especially the ones that significantly affect vanilla behavior. Right now it's broken up into two main sections:
 
 - Server Configuration (Paper plus all of the settings it inherits from Spigot, Bukkit, and Vanilla)
 - Plugin Configuration (just the plugin-related changes that seriously affect gameplay mechanics)
 
----
-
 # Server Configuration
 
-### server.properties
+## Vanilla settings
+```server.properties```
 
 Nothing particularly worth noting here.
 
-## bukkit.yml
+## Bukkit settings
+```bukkit.yml```
 
-### Spawn Limits
+#### Spawn Limits
 ```
 spawn-limits:
   water-ambient: 5
@@ -29,7 +33,7 @@ In Vanilla, the hostile mob cap raises by about 70 for every player online, but 
 
 Great for farms, not great for other gameplay or for performance. To address both, the numbers in this setting are turned down, and then ```per-player-mob-spawning``` is turned on in ```paper.yml```. This guarantees that each player can have up to 25 mobs spawned around them.
 
-### Spawn Frequency
+#### Spawn Frequency
 
 ```
 ticks-per-spawn:
