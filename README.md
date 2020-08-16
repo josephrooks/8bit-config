@@ -38,7 +38,7 @@ Great for farms, not great for other gameplay or for performance. To address bot
 ticks-per-spawn:
   monster-spawns: 2
 ```
-In Vanilla, the game tries to fill the hostile mobcap to the maximum (```70 monsters * number of players``` in vanilla, ```25 monsters per player``` on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead. This doesn't slow farms down, so much as space the spawns out a little bit more. Most noticeable at a farm like the Ender Ender.
+In Vanilla, the game tries to fill empty slots in the hostile mobcap (70 monsters times the number of players in vanilla; 25 monsters per player on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead for a moderate performance increase. This does not lower the number of mobs that spawn, so much as it slightly spaces out attempts to fill up the mobcap. When the attempt does happen, the mobcap will fill up again. Most noticeable at a farm like the Ender Ender.
 
 ## Spigot settings
 Settings native to Spigot. Inherited by Paper. Located in ```spigot.yml```.
