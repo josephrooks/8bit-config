@@ -10,16 +10,16 @@ Below, I'm working on summarizing most of the settings players will need to know
 
 # Server Configuration
 
-## Vanilla settings
-Inherited by Paper. Located in ```server.properties```.
+8bit runs on [Paper](http://papermc.io), a high-performance fork of Spigot, which is itself a fork of Bukkit, which is built by reverse-engineering Mojang's Vanilla server. Each layer includes some additional optimizations and configuration options.
 
-Nothing particularly worth noting here.
+## Vanilla settings
+**tl;dr:** Inherited by Paper. Located in ```server.properties```. Nothing particularly worth noting here.
 
 ## Bukkit settings
 Inherited by Paper. Located in ```bukkit.yml```.
 
 #### Spawn Limits
-tl;dr: This plus ```per-player-mob-spawning``` (in ```paper.yml```) spreads mobs more evenly for every player and helps with performance at the same time.
+**tl;dr:** This plus ```per-player-mob-spawning``` (in ```paper.yml```) spreads mobs more evenly for every player and helps with performance at the same time.
 ```
 spawn-limits:
   water-ambient: 5
@@ -33,7 +33,7 @@ The only ones that will matter to most people are ```monsters```, and maybe ```w
 In Vanilla, the hostile mob cap raises by about 70 for every player online, but Mojang's method doesn't guarantee even distribution of them. If two players are online and one is flying high or in a well-lit area, the other might get all 140 mobs concentrated around them. While great for hostile mob farms, it's not great for other gameplay or for performance.
 
 #### Spawn Frequency
-tl;dr: How often mobs spawn. Slightly more spaced out. Minimal effect on gameplay.
+**tl;dr:** How often mobs spawn. Slightly more spaced out. Minimal effect on gameplay.
 ```
 ticks-per-spawn:
   monster-spawns: 2
