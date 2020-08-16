@@ -11,12 +11,12 @@ Below, I'm working on summarizing most of the settings players will need to know
 # Server Configuration
 
 ## Vanilla settings
-```server.properties```
+Inherited by Paper. Located in ```server.properties```.
 
 Nothing particularly worth noting here.
 
 ## Bukkit settings
-```bukkit.yml```
+Inherited by Paper. Located in ```bukkit.yml```.
 
 #### Spawn Limits
 ```
@@ -34,19 +34,19 @@ In Vanilla, the hostile mob cap raises by about 70 for every player online, but 
 Great for farms, not great for other gameplay or for performance. To address both, the numbers in this setting are turned down, and then ```per-player-mob-spawning``` is turned on in ```paper.yml```. This guarantees that each player can have up to 25 mobs spawned around them.
 
 #### Spawn Frequency
-
 ```
 ticks-per-spawn:
   monster-spawns: 2
 ```
 In Vanilla, the game tries to fill the hostile mobcap to the maximum (```70 monsters * number of players``` in vanilla, ```25 monsters per player``` on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead. This doesn't slow farms down, so much as space the spawns out a little bit more. Most noticeable at a farm like the Ender Ender.
 
-## spigot.yml
+## Spigot settings
+Settings native to Spigot. Inherited by Paper. Located in ```spigot.yml```.
 
 TBD
 
 ## Paper
-```paper.yml```
+Settings native to Paper, which is a fork that builds on top of Spigot. Located in ```paper.yml```.
 
 TBD
 
@@ -55,6 +55,6 @@ TBD
 #Plugin Configuration
 
 ## MobLimiter
-```/plugins/Moblimiter/config.yml```
+Used to deal with entity "parking lots." Located in ```/plugins/Moblimiter/config.yml```.
 
 TBD
