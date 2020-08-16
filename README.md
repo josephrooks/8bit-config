@@ -8,14 +8,13 @@ This repository contains most of the configuration files for the 8bit Minecraft 
 
 # Server Configuration
 
-## Vanilla
-```server.properties```
+### server.properties
 
 Nothing particularly worth noting here.
 
-## Bukkit
-```bukkit.yml```
+### bukkit.yml
 
+#### Spawn Limits
 ```
 spawn-limits:
   water-ambient: 5
@@ -31,20 +30,19 @@ In Vanilla, the hostile mob cap raises by about 70 for every player online, but 
 
 Great for farms, not great for other gameplay or for performance. To address both, the numbers in this setting are turned down, and then ```per-player-mob-spawning``` is turned on in ```paper.yml```. This guarantees that each player can have up to 25 mobs spawned around them.
 
+#### Spawn Frequency
+
 ```
 ticks-per-spawn:
   monster-spawns: 2
 ```
-
 In Vanilla, the game tries to fill the hostile mobcap to the maximum (```70 monsters * number of players``` in vanilla, ```25 monsters per player``` on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead. This doesn't slow farms down, so much as space the spawns out a little bit more. Most noticeable at a farm like the Ender Ender.
 
-## Spigot
-```spigot.yml```
+### spigot.yml
 
 TBD
 
-## Paper
-```paper.yml```
+### paper.yml
 
 TBD
 
