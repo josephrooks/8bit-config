@@ -19,7 +19,7 @@ Nothing particularly worth noting here.
 Inherited by Paper. Located in ```bukkit.yml```.
 
 #### Spawn Limits
-tl;dr: This plus ```per-player-mob-spawning``` (in ```paper.yml```) guarantees each player gets their fair share of mobs without getting an overwhelming number of them.
+tl;dr: This plus ```per-player-mob-spawning``` (in ```paper.yml```) spreads mobs more evenly for every player and helps with performance at the same time.
 ```
 spawn-limits:
   water-ambient: 5
@@ -28,7 +28,9 @@ spawn-limits:
   water-animals: 5
   ambient: 3
 ```
-The only ones that will matter to most people are ```monsters```, and ```water animals``` for people with squid farms. In Vanilla, the hostile mob cap raises by about 70 for every player online, but Mojang's method doesn't guarantee even distribution of them. If two players are online and one is flying high or in a well-lit area, the other might get all 140 mobs concentrated around them. While great for hostile mob farms, it's not great for other gameplay or for performance.
+The only ones that will matter to most people are ```monsters```, and maybe ```water-animals``` for people with squid farms.
+
+In Vanilla, the hostile mob cap raises by about 70 for every player online, but Mojang's method doesn't guarantee even distribution of them. If two players are online and one is flying high or in a well-lit area, the other might get all 140 mobs concentrated around them. While great for hostile mob farms, it's not great for other gameplay or for performance.
 
 #### Spawn Frequency
 tl;dr: How often mobs spawn. Slightly more spaced out. Minimal effect on gameplay.
@@ -50,7 +52,7 @@ TBD
 
 ---
 
-#Plugin Configuration
+# Plugin Configuration
 
 ## MobLimiter
 Used to deal with entity "parking lots." Located in ```/plugins/Moblimiter/config.yml```.
