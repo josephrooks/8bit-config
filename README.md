@@ -19,6 +19,7 @@ Nothing particularly worth noting here.
 Inherited by Paper. Located in ```bukkit.yml```.
 
 #### Spawn Limits
+tl;dr: This plus ```per-player-mob-spawning``` (in ```paper.yml```) guarantees each player gets their fair share of mobs without getting an overwhelming number of them.
 ```
 spawn-limits:
   water-ambient: 5
@@ -27,18 +28,15 @@ spawn-limits:
   water-animals: 5
   ambient: 3
 ```
-How many mobs of each type can spawn around each player. The only ones that will matter to most people are ```monsters```, and ```water animals``` for people with squid farms.
-
-In Vanilla, the hostile mob cap raises by about 70 for every player online, but Mojang's method doesn't guarantee even distribution of them. If two players are online and one is flying high or in a well-lit area, the other might get all 140 mobs concentrated around them.
-
-Great for farms, not great for other gameplay or for performance. To address both, the numbers in this setting are turned down, and then ```per-player-mob-spawning``` is turned on in ```paper.yml```. This guarantees that each player can have up to 25 mobs spawned around them.
+The only ones that will matter to most people are ```monsters```, and ```water animals``` for people with squid farms. In Vanilla, the hostile mob cap raises by about 70 for every player online, but Mojang's method doesn't guarantee even distribution of them. If two players are online and one is flying high or in a well-lit area, the other might get all 140 mobs concentrated around them. While great for hostile mob farms, it's not great for other gameplay or for performance.
 
 #### Spawn Frequency
+tl;dr: How often mobs spawn. Slightly more spaced out. Minimal effect on gameplay.
 ```
 ticks-per-spawn:
   monster-spawns: 2
 ```
-In Vanilla, the game tries to fill empty slots in the hostile mobcap (70 monsters times the number of players in vanilla; 25 monsters per player on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead for a moderate performance increase. This does not lower the number of mobs that spawn, so much as it slightly spaces out attempts to fill up the mobcap. When the attempt does happen, the mobcap will fill up again. Most noticeable at a farm like the Ender Ender.
+In Vanilla, the game tries to fill empty slots in the hostile mobcap (70 monsters times the number of players in vanilla; 25 monsters per player on 8bit) every 1 gametick, or every 1/20th of a second. I've doubled that to every 2 gameticks instead, slightly spacing out attempts to fill up the mobcap for a moderate performance increase. Most noticeable at the Ender Ender or gold farms.
 
 ## Spigot settings
 Settings native to Spigot. Inherited by Paper. Located in ```spigot.yml```.
