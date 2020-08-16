@@ -1,0 +1,49 @@
+name: modmode
+prefixes:
+- '&a':
+    priority: 60
+parents:
+- moderator
+permissions:
+- weight.60
+- coreprotect.restore
+- coreprotect.rollback
+- entitycontrol.user
+- essentials.back
+- essentials.back.ondeath
+- essentials.back.onteleport
+- essentials.clearinventory
+- essentials.commandcooldowns.bypass
+- essentials.editsign
+- essentials.gamemode
+- essentials.gamemode.creative:
+    value: false
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.getpos.others
+- essentials.mute
+- essentials.near
+- essentials.teleport.cooldown.bypass.back
+- essentials.teleport.cooldown.bypass.tpa
+- essentials.tp
+- essentials.tp.others
+- essentials.tp.position
+- essentials.tpoffline
+- inventoryrollback.restore
+- modmode.unvanish
+- modmode.vanish
+- modreq.teleport
+- mv.bypass.gamemode.*
+- OpenInv.any.default
+- OpenInv.anychest
+- OpenInv.crossworld
+- OpenInv.editender
+- OpenInv.editinv
+- OpenInv.openender
+- OpenInv.openenderall
+- OpenInv.openinv
+- OpenInv.silent
+- OpenInv.silent.default
+- vanish.see
+- vanish.silentjoin
+- vanish.vanish

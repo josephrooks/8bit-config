@@ -1,0 +1,8 @@
+name: admin
+prefixes:
+- '&5':
+    priority: 70
+permissions:
+- weight.70
+- minecraft.command.whitelist
+- modmodehelper.adminmode

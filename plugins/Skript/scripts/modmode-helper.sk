@@ -1,0 +1,43 @@
+# These two commands are added to Modmode's config.yml.
+# /helper-on runs when entering modmode
+# /helper-off runs when leaving modmode
+
+# todo:
+# Add aliases for granting and revoking moderator perms
+# Add alias for fixing accidentally goofed mod and admin perms
+# Add command for admins to temporarily grant build permissions
+# Add a /cs cheat sheet command (can I make the commands clickable in chat or a book?)
+# Add /checkup to run a set of useful mod/tech commands all in a row
+
+options:
+    activation: "§eWelcome! You've got mod."
+    deactivation: "§eYou have been returned to survival."
+
+command /helper-on:
+    trigger:
+        if player has permission "modmodehelper.adminmode":
+            execute console command "lp user %players% parent add adminmode"
+            wait 5 ticks
+            send "§a+ Admin permissions"
+            wait 20 ticks
+            send {@activation}
+        if player has permission "modmodehelper.techmode":
+            execute console command "lp user %players% parent add techmode"
+            wait 5 ticks
+            send "§a+ TechAdmin permissions"
+            wait 20 ticks
+            send {@activation}
+        else:
+            wait 20 ticks
+            send {@activation}
+
+command /helper-off:
+    trigger:
+        if player has permission "modmodehelper.adminmode":
+            execute console command "lp user %players% parent remove adminmode"
+            execute console command "deop %players%"
+        if player has permission "modmodehelper.techmode":
+            execute console command "lp user %players% parent remove techmode"
+            execute console command "deop %players%"
+        wait 20 ticks
+        send {@deactivation}

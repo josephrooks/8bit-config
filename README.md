@@ -1,2 +1,2 @@
 # 8bit-dev
- Config files for the 8bit dev server
+Config files for the 8bit dev server

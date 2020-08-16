@@ -1,0 +1,46 @@
+cfg-version: 11
+message: '&cA mysterious force prevents you from going any further.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+dynmap-border-hideByDefault: false
+dynmap-border-priority: 0
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 60
+bypass-list-uuids:
+- 15594765-5a28-4f60-86d3-a9cc179510ba
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  world:
+    x: 0.0
+    z: 0.0
+    radiusX: 85000
+    radiusZ: 85000
+    wrapping: false
+  world_nether_resource:
+    x: 0.0
+    z: 0.0
+    radiusX: 1000
+    radiusZ: 1000
+    wrapping: false
+  world_nether:
+    x: 0.0
+    z: 0.0
+    radiusX: 10625
+    radiusZ: 10625
+    wrapping: false
+  world_the_end:
+    x: 0.0
+    z: 0.0
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false

@@ -1,0 +1,34 @@
+health: 20.0
+food: 20
+experience: 1.888889
+fireticks: -20
+falldistance: 0.0
+awaketicks: 4468
+world: world
+x: -14.24825891477362
+y: 113.0
+z: 1.755918113382568
+pitch: 2.4001942
+yaw: -44.736572
+chestplate:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2567
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    Damage: 39
+off-hand:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2567
+  type: AIR
+  amount: 0
+inventory:
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2567
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 39

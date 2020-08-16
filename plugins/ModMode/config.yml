@@ -1,0 +1,31 @@
+server: 8bit
+allow:
+  flight: true
+  collisions: false
+commands:
+  activate:
+    before: []
+    after:
+    - /helper-on
+  deactivate:
+    before:
+    - /helper-off
+    after: []
+debug:
+  playerdata: false
+permissions:
+  modmode-group: modmode
+  moderator-group: moderator
+  persistent-groups:
+  - moderator
+  - admin
+  - adminmode
+  - tech
+  - techmode
+  worlds: []
+logged-out-vanished:
+- 15594765-5a28-4f60-86d3-a9cc179510ba
+- f0309ecf-2ea9-4a90-bc15-315692d2fbc1
+modmode:
+- f0309ecf-2ea9-4a90-bc15-315692d2fbc1
+modmode-pending: []

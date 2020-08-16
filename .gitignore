@@ -1,0 +1,12 @@
+
+banned-players.json
+banned-ips.json
+whitelist.json
+*.private
+plugins/CoreProtect/database.db
+plugins/DiscordSRV
+plugins/Essentials/userdata
+plugins/ModReq/ModReq.db
+plugins/ModReq/most-recent-claims.yml
+plugins/Skript/backups
+plugins/WorldEdit/sessions

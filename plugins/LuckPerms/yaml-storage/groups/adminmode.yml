@@ -1,0 +1,18 @@
+name: adminmode
+prefixes:
+- '&a':
+    priority: 75
+permissions:
+- weight.75
+- essentials.delwarp
+- essentials.gamemode.creative
+- essentials.give
+- essentials.nick
+- essentials.nick.others
+- essentials.setwarp
+- essentials.skull
+- essentials.skull.modify
+- essentials.skull.others
+- essentials.skull.spawn
+- minecraft.nbt.copy
+- minecraft.nbt.place

@@ -1,0 +1,11 @@
+portals:
+  ResourceNether:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: josephrooks
+    location: 671.0,49.0,255.0:679.0,49.0,262.0
+    world: world
+    destination: world_nether_resource

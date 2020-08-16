@@ -1,0 +1,75 @@
+name: default
+permissions:
+- weight.10
+- essentials.afk
+- essentials.afk.auto
+- essentials.build
+- essentials.delhome
+- essentials.getpos
+- essentials.hat
+- essentials.help
+- essentials.home
+- essentials.home.bed
+- essentials.list
+- essentials.mail
+- essentials.mail.send
+- essentials.me
+- essentials.motd
+- essentials.msg
+- essentials.ping
+- essentials.rules
+- essentials.sethome
+- essentials.sethome.bed
+- essentials.sethome.multiple.default
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.warps.*
+- multiverse.portal.access.*
+- bukkit.broadcast:
+    value: false
+- bukkit.command.me:
+    value: false
+- bukkit.command.plugins:
+    value: false
+- bukkit.command.version:
+    value: false
+- essentials.afk.message:
+    value: false
+- essentials.chat.color:
+    value: false
+- essentials.chat.format:
+    value: false
+- essentials.enderchest:
+    value: false
+- essentials.invsee:
+    value: false
+- essentials.kill:
+    value: false
+- essentials.msgtoggle:
+    value: false
+- essentials.remove:
+    value: false
+- essentials.silentjoin:
+    value: false
+- essentials.silentjoin.vanish:
+    value: false
+- essentials.silentquit:
+    value: false
+- essentials.vanish:
+    value: false
+- essentials.vanish.pvp:
+    value: false
+- essentials.vanish.see:
+    value: false
+- minecraft.command.advancement:
+    value: false
+- multiverse.core.create:
+    value: false
+- OpenInv.search:
+    value: false
+- OpenInv.searchenchant:
+    value: false

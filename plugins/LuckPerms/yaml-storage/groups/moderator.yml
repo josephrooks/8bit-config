@@ -1,0 +1,44 @@
+name: moderator
+parents:
+- default
+prefixes:
+- '&b':
+    priority: 50
+permissions:
+- weight.50
+- coreprotect.co
+- coreprotect.core
+- coreprotect.coreprotect
+- coreprotect.inspect
+- coreprotect.lookup
+- essentials.ban
+- essentials.ban.notify
+- essentials.banip
+- essentials.broadcast
+- essentials.chat.url
+- essentials.gc
+- essentials.helpop
+- essentials.helpop.receive
+- essentials.kick
+- essentials.kick.notify
+- essentials.mute.notify
+- essentials.protect.alerts
+- essentials.protect.alerts.notrigger
+- essentials.seen
+- essentials.seen.banreason
+- essentials.seen.ip
+- essentials.seen.location
+- essentials.tempban
+- essentials.tempban.offline
+- essentials.tempban.unlimited
+- essentials.unban
+- essentials.unbanip
+- moblimiter.check
+- moblimiter.count
+- moblimiter.limits
+- modmode.toggle
+- modreq.done
+- modreq.mod
+- multiverse.core.list.who
+- modreq.teleport:
+    value: false

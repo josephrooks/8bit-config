@@ -1,0 +1,129 @@
+radius: 3
+breeding_ticks: 600
+growth_ticks: 1200
+logblock: false
+relative_age: true
+debug: false
+
+defaults:
+  age: -1
+  max: 150
+  chunk_max: 30
+  cull: 4
+
+limits:
+  bat: []
+  blaze:
+    cull: 0
+  cave_spider:
+    cull: 4
+  chicken: []
+  cod: []
+  cow: []
+  creeper:
+    cull: 8
+  dolphin: []
+  donkey:
+    cull: 4
+  ender_dragon: []
+  enderman:
+    cull: 4
+  endermite:
+    cull: 8
+  evoker: []
+  ghast:
+    cull: 2
+  giant:
+    cull: -1
+  guardian:
+    max: 30
+    chunk_max: 25
+    cull: 4
+  horse:
+    age: -1
+  illusioner: []
+  iron_golem:
+    chunk_max: 4
+    max: 10
+    cull: 4
+  llama:
+    cull: 8
+  magma_cube:
+    cull: 4
+  mule:
+    cull: 4
+  mushroom_cow:
+    cull: 8
+  ocelot:
+    cull: 8
+  parrot:
+    cull: 8
+  phantom: []
+  pig: []
+  piglin:
+    cull: 8
+  zombified_piglin:
+    chunk_max: 20
+  pufferfish:
+    cull: 8
+  rabbit:
+    cull: 8
+  salmon: []
+  sheep_white:
+    cull: 4
+  sheep_orange:
+    cull: 4
+  sheep_magenta:
+    cull: 4
+  sheep_light_blue:
+    cull: 4
+  sheep_yellow:
+    cull: 4
+  sheep_lime:
+    cull: 4
+  sheep_pink:
+    cull: 4
+  sheep_silver:
+    cull: 4
+  sheep_cyan:
+    cull: 4
+  sheep_purple:
+    cull: 4
+  sheep_blue:
+    cull: 4
+  sheep_brown:
+    cull: 4
+  sheep_green:
+    cull: 4
+  sheep_red:
+    cull: 4
+  sheep_black:
+    cull: 4
+  shulker: []
+  silverfish:
+    cull: 6
+  skeleton: []
+  slime: []
+  snowman:
+    cull: -1
+  spider:
+    cull: 2
+  squid:
+    max: 40
+    chunk_max: 5
+    cull: 8
+  tropical_fish: []
+  turtle: []
+  vex: []
+  villager:
+    chunk_max: 10
+    age: -1
+  vindicator: []
+  witch:
+    cull: 4
+  wither:
+    cull: -1
+  wolf:
+    cull: 8
+  zombie:
+    cull: 4
