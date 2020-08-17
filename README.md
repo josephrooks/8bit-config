@@ -8,6 +8,9 @@ Below, I'm working on summarizing most of the settings players will need to know
 - Server Configuration (Paper plus all of the settings it inherits from Spigot, Bukkit, and Vanilla)
 - Plugin Configuration (just the plugin-related changes that seriously affect gameplay mechanics)
 
+#### To Do
+- Move all of this to the Wiki, probably
+
 ---
 
 # Server Configuration
