@@ -9,7 +9,9 @@ Below, I'm working on summarizing most of the settings players will need to know
 - Plugin Configuration (just the plugin-related changes that seriously affect gameplay mechanics)
 
 #### To Do
+- Finish gameplay-changing plugin summaries
 - Move all of this to the Wiki, probably
+- Create separate Wiki pages for user & mod guides to /modreq
 
 ---
 
