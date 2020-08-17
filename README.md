@@ -9,7 +9,9 @@ Below, I'm working on summarizing most of the settings players will need to know
 - Plugin Configuration (just the plugin-related changes that seriously affect gameplay mechanics)
 
 #### To Do
+- Finish gameplay-changing plugin summaries
 - Move all of this to the Wiki, probably
+- Create separate Wiki pages for user & mod guides to /modreq
 
 ---
 
@@ -73,3 +75,14 @@ This list is incomplete, but only plugins with settings that substantially chang
 **tl;dr:** Deals with entity overload, especially passive mob "parking lots." Located in ```/plugins/Moblimiter/config.yml```.
 
 MobLimiter prevents animal breeding once you reach a certain number of animals within a 3-chunk radius. It also removes mobs (passive and hostile) above a certain number on chunk unload, and speeds up the breeding and growth process to make up for it to players who are actively farming animals. MobLimiter should leave 4 animals to start breeding with next time. Tamed animals, villagers, nametagged mobs, and some other special cases are never removed automatically, and each color of sheep is treated as a separate mob.
+
+**Plugin Config To-Do**
+- EntityControl
+- EntityTrackerFixer
+- InventoryRollback
+- NerdSpawn
+- Sleep-Most
+- ViaVersion
+- VillagerOptimiser
+- WorldBorder
+- WorldGuard
