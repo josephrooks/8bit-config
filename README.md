@@ -69,4 +69,4 @@ This list is incomplete, but only plugins with settings that substantially chang
 ## MobLimiter
 **tl;dr:** Deals with entity overload, especially passive mob "parking lots." Located in ```/plugins/Moblimiter/config.yml```.
 
-TBD
+MobLimiter prevents animal breeding once you reach a certain number of animals within a 3-chunk radius. It also removes mobs (passive and hostile) above a certain number on chunk unload, and speeds up the breeding and growth process to make up for it to players who are actively farming animals. MobLimiter should leave 4 animals to start breeding with next time. Tamed animals, villagers, nametagged mobs, and some other special cases are never removed automatically, and each color of sheep is treated as a separate mob.
