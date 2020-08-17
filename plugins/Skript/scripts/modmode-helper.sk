@@ -20,16 +20,14 @@ command /helper-on:
             wait 5 ticks
             send "§a+ Admin permissions"
             wait 20 ticks
-            send {@activation}
         if player has permission "modmodehelper.techmode":
             execute console command "lp user %players% parent add techmode"
             wait 5 ticks
             send "§a+ TechAdmin permissions"
             wait 20 ticks
-            send {@activation}
         else:
             wait 20 ticks
-            send {@activation}
+        send {@activation}
 
 command /helper-off:
     trigger:
