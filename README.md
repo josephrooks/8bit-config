@@ -1,5 +1,5 @@
 # 8bit-config
-This repository contains most of the configuration files for the 8bit Minecraft server.
+This repository contains most of the configuration files for the 8bit Minecraft server. (Don't bother looking for the seed; I'm not that dumb.)
 
 I try to avoid changing vanilla gameplay where possible, but some cases (like villager AI or huge quanities of mobs in a small space) are too detrimental to performance to leave them as-is.
 
