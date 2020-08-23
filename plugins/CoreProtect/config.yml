@@ -28,7 +28,7 @@ default-radius: 10
 
 # The maximum radius that can be used in a command. Set to "0" to disable.
 # To run a rollback or restore without a radius, you can use "r:#global".
-max-radius: 100
+max-radius: 50
 
 # If enabled, items taken from containers (etc) will be included in rollbacks.
 rollback-items: true
@@ -54,7 +54,7 @@ natural-break: true
 block-movement: true
 
 # Properly track blocks moved by pistons.
-pistons: false
+pistons: true
 
 # Logs blocks that burn up in a fire.
 block-burn: false
@@ -94,11 +94,11 @@ portals: true
 
 # Logs water flow. If water destroys other blocks, such as torches,
 # this allows it to be properly rolled back.
-water-flow: false
+water-flow: true
 
 # Logs lava flow. If lava destroys other blocks, such as torches,
 # this allows it to be properly rolled back.
-lava-flow: false
+lava-flow: true
 
 # Allows liquid to be properly tracked and linked to players.
 # For example, if a player places water which flows and destroys torches,
@@ -120,13 +120,13 @@ player-messages: false
 player-commands: false
 
 # Logs the logins and logouts of players.
-player-sessions: false
+player-sessions: true
 
 # Logs when a player changes their Minecraft username.
 username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
-worldedit: false
+worldedit: true
 
 # CoreProtect is donationware. Obtain a donation key from coreprotect.net/donate/
 donation-key: 
