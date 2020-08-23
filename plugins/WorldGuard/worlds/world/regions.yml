@@ -26,3 +26,13 @@ regions:
         owners: {}
         type: global
         priority: 0
+    pride_park:
+        min: {x: 928, y: 0, z: 28}
+        max: {x: 1142, y: 255, z: 330}
+        members: {}
+        flags: {mob-spawning: deny}
+        owners:
+            unique-ids: [f0309ecf-2ea9-4a90-bc15-315692d2fbc1, 2c5f1244-fe0b-48d1-abdb-bd48574b772e,
+                feafaf74-db8b-4b2a-8243-f71a4bc9dd53, fc904ad1-6cfc-4e61-af17-3f9558b3b306]
+        type: cuboid
+        priority: 0
