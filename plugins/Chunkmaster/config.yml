@@ -1,8 +1,8 @@
 generation:
   mspt-pause-threshold: 500
-  pause-on-player-count: 1
+  pause-on-player-count: 7
   max-pending-chunks: 500
-  max-loaded-chunks: 1000
+  max-loaded-chunks: 500
   unloading-period: 50
   ignore-worldborder: false
   autostart: true
