@@ -28,11 +28,11 @@ untrack-ticks: 400
 # How low should the server's TPS be before we do anything?
 # - Note: Setting this value above 20 will skip this check, allowing the tasks to run 24/7.
 # - Default value(s): 19.5
-tps-limit: 19.5
+tps-limit: 1
 
 # How often (in ticks) should we check for players near un-tracked entities?
 # - Default value(s): 40
-check-untracked-entities-frequency: 80
+check-untracked-entities-frequency: 40
 
 # How far (in blocks) should we look for players near un-tracked entities?
 # - Default value(s): 30
@@ -41,4 +41,4 @@ tracking-range: 30
 # What worlds should we perform our tasks on?
 # - Default value(s): [world, world_nether, world_the_end]
 worlds:
-  - world
+  - world_nether
