@@ -1,0 +1,20 @@
+Enable-Update-Notifications: false
+Allow-Name: false
+Allow-Nickname: false
+Allow-Age: false
+Allow-Birthday: false
+Allow-Location: false
+Allow-Gender: false
+Allow-Pronouns: true
+Allow-Discord: true
+Allow-Youtube: false
+Allow-Twitch: true
+Allow-Steam: false
+Allow-Bio: false
+MySQL:
+  Use-MySQL: false
+  Host-Name: ''
+  Port: 3306
+  Database-Name: ''
+  Username: ''
+  Password: ''
