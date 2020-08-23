@@ -41,6 +41,12 @@ worlds:
   world_the_end:
     x: 0.0
     z: 0.0
-    radiusX: 100000
-    radiusZ: 100000
+    radiusX: 20000
+    radiusZ: 20000
+    wrapping: false
+  world_nether_pregen:
+    x: 0.0
+    z: 0.0
+    radiusX: 11000
+    radiusZ: 11000
     wrapping: false
