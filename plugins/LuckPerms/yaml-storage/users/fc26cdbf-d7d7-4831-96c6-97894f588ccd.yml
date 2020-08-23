@@ -1,0 +1,6 @@
+uuid: fc26cdbf-d7d7-4831-96c6-97894f588ccd
+name: zanzindorf
+primary-group: moderator
+parents:
+- default
+- moderator

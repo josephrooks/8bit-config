@@ -1,0 +1,6 @@
+uuid: 2c5f1244-fe0b-48d1-abdb-bd48574b772e
+name: adzuboin
+primary-group: moderator
+parents:
+- default
+- moderator

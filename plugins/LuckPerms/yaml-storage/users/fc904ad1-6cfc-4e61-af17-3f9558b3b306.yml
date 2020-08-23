@@ -1,0 +1,8 @@
+uuid: fc904ad1-6cfc-4e61-af17-3f9558b3b306
+name: thehotdish
+primary-group: moderator
+parents:
+- admin
+- default
+- moderator
+- owner

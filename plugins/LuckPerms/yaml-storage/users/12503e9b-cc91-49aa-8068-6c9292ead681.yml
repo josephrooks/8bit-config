@@ -1,0 +1,6 @@
+uuid: 12503e9b-cc91-49aa-8068-6c9292ead681
+name: spyro_2006
+primary-group: moderator
+parents:
+- default
+- moderator

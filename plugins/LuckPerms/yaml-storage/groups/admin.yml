@@ -1,6 +1,6 @@
 name: admin
 prefixes:
-- '&5':
+- '&2':
     priority: 70
 permissions:
 - weight.70

@@ -1,0 +1,8 @@
+uuid: d3e05f74-1566-4129-b9c1-011ccfc80fcf
+name: minnesota_toz
+primary-group: moderator
+parents:
+- admin
+- default
+- moderator
+- owner

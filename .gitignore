@@ -10,3 +10,4 @@ plugins/ModReq/ModReq.db
 plugins/ModReq/most-recent-claims.yml
 plugins/Skript/backups
 plugins/WorldEdit/sessions
+*.jar

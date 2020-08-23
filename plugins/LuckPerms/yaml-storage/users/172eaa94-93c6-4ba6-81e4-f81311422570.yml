@@ -1,0 +1,6 @@
+uuid: 172eaa94-93c6-4ba6-81e4-f81311422570
+name: theorangeraider
+primary-group: moderator
+parents:
+- default
+- moderator

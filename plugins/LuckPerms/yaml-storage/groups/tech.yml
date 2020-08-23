@@ -1,6 +1,6 @@
 name: tech
 prefixes:
-- '&5':
+- '&3':
     priority: 80
 permissions:
 - weight.80

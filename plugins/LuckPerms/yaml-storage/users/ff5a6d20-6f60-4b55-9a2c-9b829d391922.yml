@@ -1,0 +1,6 @@
+uuid: ff5a6d20-6f60-4b55-9a2c-9b829d391922
+name: lazibonz
+primary-group: moderator
+parents:
+- default
+- moderator

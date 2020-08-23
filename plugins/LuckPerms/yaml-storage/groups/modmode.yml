@@ -1,6 +1,6 @@
 name: modmode
 prefixes:
-- '&a':
+- '&9':
     priority: 60
 parents:
 - moderator

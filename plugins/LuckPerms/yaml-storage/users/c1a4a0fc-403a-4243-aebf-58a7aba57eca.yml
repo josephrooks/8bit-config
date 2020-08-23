@@ -1,0 +1,6 @@
+uuid: c1a4a0fc-403a-4243-aebf-58a7aba57eca
+name: hurtswenipvp
+primary-group: moderator
+parents:
+- default
+- moderator

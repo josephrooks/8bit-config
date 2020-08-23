@@ -1,6 +1,6 @@
 name: adminmode
 prefixes:
-- '&a':
+- '&2':
     priority: 75
 permissions:
 - weight.75

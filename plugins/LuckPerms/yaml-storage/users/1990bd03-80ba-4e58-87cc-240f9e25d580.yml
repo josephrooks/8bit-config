@@ -1,0 +1,6 @@
+uuid: 1990bd03-80ba-4e58-87cc-240f9e25d580
+name: starlion5
+primary-group: moderator
+parents:
+- default
+- moderator

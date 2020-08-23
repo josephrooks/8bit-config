@@ -1,4 +1,4 @@
 name: owner
 prefixes:
-- '&4':
-    priority: 99
+- '&c':
+    priority: 100
