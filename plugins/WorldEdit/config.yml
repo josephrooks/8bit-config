@@ -27,8 +27,8 @@ limits:
     max-super-pickaxe-size: 5
     max-brush-radius: 5
     butcher-radius:
-        default: -1
-        maximum: -1
+        default: 5
+        maximum: 5
     disallowed-blocks:
     - "minecraft:oak_sapling"
     - "minecraft:jungle_sapling"
@@ -119,7 +119,7 @@ snapshots:
     directory:
 
 navigation-wand:
-    item: minecraft:compass
+    item: minecraft:black_glazed_terracotta
     max-distance: 100
 
 scripting:
